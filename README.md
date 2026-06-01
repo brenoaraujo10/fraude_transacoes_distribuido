@@ -36,7 +36,7 @@ VS Code
 
 A principio foi realizado um benchmark serial utilizando aproximadamente 200 mil transações do dataset.
 
-Resultado
+-Resultado
 
 Tempo serial: 286.62 segundos
 
