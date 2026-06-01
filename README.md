@@ -9,7 +9,9 @@ O sistema utiliza o dataset IEEE-CIS Fraud Detection para simular a análise de 
 Dataset Utilizado
 
 -IEEE-CIS Fraud Detection
+
 Tamanho aproximado: 1.35 GB
+
 Fonte: Kaggle
 
 
@@ -37,6 +39,7 @@ A principio foi realizado um benchmark serial utilizando aproximadamente 200 mil
 Resultado
 
 Tempo serial: 286.62 segundos
+
 Aproximadamente 4 minutos e 47 segundos
 
 
