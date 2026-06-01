@@ -29,7 +29,8 @@ VS Code
 
 
 
-Benchmark Serial
+
+-Benchmark Serial
 
 A principio foi realizado um benchmark serial utilizando aproximadamente 200 mil transações do dataset.
 
@@ -41,4 +42,5 @@ Aproximadamente 4 minutos e 47 segundos
 
 
 Breno Ferreira 
+
 Yuri Bacelar
