@@ -22,7 +22,9 @@ Implementar técnicas de processamento serial e paralelo para analisar grandes v
 Tecnologias Utilizadas
 
 Python
+
 Pandas
+
 VS Code
 
 
