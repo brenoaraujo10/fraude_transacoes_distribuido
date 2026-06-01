@@ -12,11 +12,11 @@ Tamanho aproximado: 1.35 GB
 
 Fonte: Kaggle
 
-Objetivo
+-Objetivo
 
 Implementar técnicas de processamento serial e paralelo para analisar grandes volumes de transações financeiras, medindo desempenho e ganho de eficiência.
 
-Tecnologias Utilizadas
+-Tecnologias Utilizadas
 
 Python
 
@@ -45,6 +45,6 @@ Aproximadamente 6 minutos e 16 segundos
 
 Alunos:
 
-Breno Ferreira
+Breno Ferreira - 069800
 
 Yuri Bacelar
