@@ -28,11 +28,22 @@ VS Code
 
 A principio foi realizado um benchmark serial utilizando aproximadamente 200 mil transações do dataset.
 
--Resultado
+-Resultados obtidos
 
-Tempo serial: 286.62 segundos
+-3 Execuções:
 
-Aproximadamente 4 minutos e 47 segundos
+1° - 286,62 segundos
+
+2° - 444,04 segundos
+
+3° - 396,91 segundos
+
+
+Tempo serial médio : 375,86 segundos
+
+Aproximadamente 6 minutos e 16 segundos
+
+Alunos:
 
 Breno Ferreira
 
