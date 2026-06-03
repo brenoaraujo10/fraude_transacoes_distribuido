@@ -1,7 +1,5 @@
 Sistema Distribuído de Detecção de Golpes e Fraudes nas transações
 
-Projeto com foco em otimização, paralelismo e processamento distribuído.
-
 O sistema utiliza o dataset IEEE-CIS Fraud Detection para simular a análise de transações financeiras e detecção de possíveis fraudes em ambiente bancário.
 
 Dataset Utilizado
@@ -22,7 +20,6 @@ Python
 
 Pandas
 
-VS Code
 
 -Benchmark Serial
 
@@ -47,4 +44,4 @@ Alunos:
 
 Breno Ferreira - 069800
 
-Yuri Bacelar
+Yuri Bacelar - 076605
