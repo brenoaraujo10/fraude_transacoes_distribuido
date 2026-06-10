@@ -77,7 +77,7 @@ Após a execução serial, foi implementado o processamento paralelo utilizando 
 | 8 | 180,19 |
 | 12 | 183,69 |
 
-### Gráfico de Tempo de Execução
+<h3 align="center">Gráfico de Tempo de Execução</h3>
 
 <p align="center">
   <img src="graficos/tempo_execucao.jpeg" width="600">
@@ -96,7 +96,7 @@ O speedup representa o ganho de desempenho obtido pela execução paralela em co
 | 8 | 180,19 | 2,09 |
 | 12 | 183,69 | 2,05 |
 
-### Gráfico de Speedup
+<h3 align="center">Gráfico de Speedup</h3>
 
 <p align="center">
   <img src="graficos/speedup.jpeg" width="600">
@@ -115,7 +115,7 @@ A eficiência indica o nível de aproveitamento dos processos utilizados durante
 | 8 | 2,09 | 26,13 |
 | 12 | 2,05 | 17,08 |
 
-### Gráfico de Eficiência
+<h3 align="center">Gráfico de Eficiência</h3>
 
 <p align="center">
   <img src="graficos/eficiencia.jpeg" width="600">
