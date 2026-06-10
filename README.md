@@ -2,6 +2,7 @@ Sistema Distribuído de Detecção de Golpes e Fraudes nas transações
 
 O sistema utiliza o dataset IEEE-CIS Fraud Detection para simular a análise de transações financeiras e detecção de possíveis fraudes em ambiente bancário.
 
+
 Dataset Utilizado
 
 -IEEE-CIS Fraud Detection
@@ -10,15 +11,23 @@ Tamanho aproximado: 1.35 GB
 
 Fonte: Kaggle
 
+
+
 -Objetivo
 
 Implementar técnicas de processamento serial e paralelo para analisar grandes volumes de transações financeiras, medindo desempenho e ganho de eficiência.
+
+
+
 
 -Tecnologias Utilizadas
 
 Python
 
 Pandas
+
+
+
 
 
 CONFIGURAÇÃO DA MAQUINA UTILIZADA
@@ -32,6 +41,8 @@ CONFIGURAÇÃO DA MAQUINA UTILIZADA
 | Linguagem utilizada         | Python 3.14                              |
 | Biblioteca de paralelização | concurrent.futures (ProcessPoolExecutor) |
 | Compilador / Versão         | Python 3.14                              |
+
+
 
 
 
@@ -65,6 +76,8 @@ Aproximadamente 6 minutos e 16 segundos
 
 
 
+
+
 TEMPO PARALELO 
 
 Após a execução serial, foi implementado o processamento paralelo utilizando a biblioteca ProcessPoolExecutor, o objetivo foi distribuir o processamento das transações entre múltiplos processos e comparar o desempenho obtido em diferentes níveis de paralelismo.
@@ -80,7 +93,11 @@ Após a execução serial, foi implementado o processamento paralelo utilizando 
 
 
 
+
+
 ![Tempo de Execução](graficos/tempo_execucao.jpeg)
+
+
 
 
 
@@ -100,7 +117,10 @@ O speedup representa o ganho de desempenho obtido pela execução paralela em co
 
 
 
+
+
 ![Speedup](graficos/speedup.jpeg)
+
 
 
 
@@ -123,7 +143,12 @@ A eficiência indica o nível de aproveitamento dos processos utilizados durante
 
 
 
+
+
 ![Eficiência](graficos/eficiencia.jpeg)
+
+
+
 
 
 
