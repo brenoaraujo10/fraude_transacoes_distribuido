@@ -40,6 +40,16 @@ Tempo serial médio : 375,86 segundos
 
 Aproximadamente 6 minutos e 16 segundos
 
+
+| Execução | Tempo (s) |
+|-----------|-----------:|
+| 1ª Execução | 286,62 |
+| 2ª Execução | 444,04 |
+| 3ª Execução | 396,91 |
+| **Tempo Médio** | **375,86** |
+
+
+
 Alunos:
 
 Breno Ferreira - 069800
