@@ -52,7 +52,7 @@ if __name__ == "__main__":
 
     print(f"{len(dados)} transações carregadas.")
 
-    for workers in [12]:
+    for workers in [2,4,8,12]:
 
         blocos = dividir_lista(dados, workers)
 
