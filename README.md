@@ -75,7 +75,7 @@ Após a execução serial, foi implementado o processamento paralelo utilizando 
 | 2 | 338,62 |
 | 4 | 190,78 |
 | 8 | 180,19 |
-| 12 | 183,69 |
+| 12 | 0,5 |
 
 <h3 align="center">Gráfico de Tempo de Execução</h3>
 
