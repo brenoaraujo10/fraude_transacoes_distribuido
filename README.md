@@ -31,11 +31,11 @@ Implementar técnicas de processamento serial e paralelo para analisar grandes v
 
 | Item | Descrição |
 | --------------------------- | ---------------------------------------- |
-| Processador | Intel® Core™ i3-10110U CPU @ 2.10 GHz |
-| Número de núcleos | 2 núcleos físicos / 4 threads lógicas |
-| Memória RAM | 12 GB DDR4 2667 MHz |
-| Sistema Operacional | Windows 11 |
-| Linguagem utilizada | Python 3.14 |
+| Processador | ...|
+| Número de núcleos | .... |
+| Memória RAM | .... |
+| Sistema Operacional | ... |
+| Linguagem utilizada | ... |
 | Biblioteca de paralelização | concurrent.futures (ProcessPoolExecutor) |
 | Compilador / Versão | Python 3.14 |
 
@@ -45,24 +45,14 @@ Implementar técnicas de processamento serial e paralelo para analisar grandes v
 
 A princípio foi realizado um benchmark serial utilizando aproximadamente 200 mil transações do dataset.
 
-### Resultados Obtidos
+### Resultado Obtido
 
-**3 Execuções:**
-
-- 1° - 286,62 segundos
-- 2° - 444,04 segundos
-- 3° - 396,91 segundos
-
-**Tempo serial médio:** 375,86 segundos
-
-**Aproximadamente:** 6 minutos e 16 segundos
+Tempo serial : 
 
 | Execução | Tempo (s) |
 | --------------- | ---------: |
-| 1ª Execução | 286,62 |
-| 2ª Execução | 444,04 |
-| 3ª Execução | 396,91 |
-| **Tempo Médio** | **375,86** |
+| Execução | 107,21 |
+
 
 ---
 
@@ -70,17 +60,15 @@ A princípio foi realizado um benchmark serial utilizando aproximadamente 200 mi
 
 Após a execução serial, foi implementado o processamento paralelo utilizando a biblioteca ProcessPoolExecutor. O objetivo foi distribuir o processamento das transações entre múltiplos processos e comparar o desempenho obtido em diferentes níveis de paralelismo.
 
-| Processos | Tempo (s) |
-| --------- | --------: |
-| 2 | 338,62 |
-| 4 | 190,78 |
-| 8 | 180,19 |
-| 12 | 0,5 |
-
-<h3 align="center">Gráfico de Tempo de Execução</h3>
+| Processos | Tempo de Execução (s) |
+| --------- | --------------------: |
+| 2         |                 67,23 |
+| 4         |                 35,42 |
+| 8         |                 24,32 |
+| 12        |                 22,29 |
 
 <p align="center">
-  <img src="graficos/tempo_execucao.jpeg" width="600">
+  <img src="graficos/tempo_execucao.png" width="600">
 </p>
 
 ---
@@ -91,16 +79,16 @@ O speedup representa o ganho de desempenho obtido pela execução paralela em co
 
 | Processos | Tempo (s) | Speedup |
 | --------- | --------: | ------: |
-| 2 | 338,62 | 1,11 |
-| 4 | 190,78 | 1,97 |
-| 8 | 180,19 | 2,09 |
-| 12 | 183,69 | 2,05 |
+| 2         |     67,23 |    1,59 |
+| 4         |     35,42 |    3,03 |
+| 8         |     24,32 |    4,41 |
+| 12        |     22,29 |    4,81 |
 
-<h3 align="center">Gráfico de Speedup</h3>
 
 <p align="center">
-  <img src="graficos/speedup.jpeg" width="600">
+  <img src="graficos/speedup.png" width="600">
 </p>
+
 
 ---
 
@@ -110,24 +98,21 @@ A eficiência indica o nível de aproveitamento dos processos utilizados durante
 
 | Processos | Speedup | Eficiência (%) |
 | --------- | ------: | -------------: |
-| 2 | 1,11 | 55,50 |
-| 4 | 1,97 | 49,25 |
-| 8 | 2,09 | 26,13 |
-| 12 | 2,05 | 17,08 |
+| 2         |    1,59 |          79,73 |
+| 4         |    3,03 |          75,67 |
+| 8         |    4,41 |          55,10 |
+| 12        |    4,81 |          40,08 |
 
-<h3 align="center">Gráfico de Eficiência</h3>
 
 <p align="center">
-  <img src="graficos/eficiencia.jpeg" width="600">
+  <img src="graficos/eficiencia.png" width="600">
 </p>
 
 ---
 
 ## Conclusão
 
-Os resultados demonstraram que a utilização de processamento paralelo proporcionou ganhos significativos de desempenho na análise das transações financeiras. O melhor resultado foi obtido com 8 processos, reduzindo o tempo de execução de 375,86 segundos para 180,19 segundos.
-
-A utilização de 12 processos apresentou desempenho ligeiramente inferior ao obtido com 8 processos, comportamento esperado devido ao overhead de gerenciamento dos processos e às limitações do hardware utilizado.
+Os resultados demonstraram que a utilização de processamento paralelo proporcionou ganhos significativos de desempenho na análise das transações financeiras. 
 
 ---
 
