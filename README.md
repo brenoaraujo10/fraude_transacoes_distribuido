@@ -17,6 +17,7 @@ Fonte: Kaggle
 ## Objetivo
 
 Implementar técnicas de processamento serial e paralelo para analisar grandes volumes de transações financeiras presentes no dataset IEEE-CIS Fraud Detection. O projeto tem como finalidade comparar o desempenho entre as abordagens, avaliando métricas como tempo de execução, speedup e eficiência, demonstrando os benefícios da computação paralela no processamento de grandes conjuntos de dados.
+
 ---
 
 ## Tecnologias Utilizadas
@@ -48,11 +49,12 @@ Inicialmente foi realizado um benchmark serial utilizando aproximadamente 200 mi
 
 Tempo serial médio obtido durante a execução: 
 
+O resultado demonstra o tempo necessário para processar todo o conjunto de dados sem a utilização de técnicas de paralelismo
+
 | Execução | Tempo (s) |
 | --------------- | ---------: |
 | Execução | 107,21 |
 
-O resultado demonstra o tempo necessário para processar todo o conjunto de dados sem a utilização de técnicas de paralelismo
 ---
 
 ## Tempo Paralelo
