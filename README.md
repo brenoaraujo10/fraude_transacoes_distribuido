@@ -32,7 +32,7 @@ Implementar técnicas de processamento serial e paralelo para analisar grandes v
 | Item | Descrição |
 | --------------------------- | ---------------------------------------- |
 | Processador | Intel®️ Core™️ i7-12700 (12ª Geração) @ 2.10 GHz
-| Número de núcleos | .... |
+| Número de núcleos | 12 |
 | Memória RAM | 16 GB (15,7 GB utilizáveis) |
 | Sistema Operacional | Sistema operacional 64 bits / Processador x64 |
 | Linguagem utilizada | Python |
