@@ -35,7 +35,7 @@ Implementar técnicas de processamento serial e paralelo para analisar grandes v
 | Número de núcleos | .... |
 | Memória RAM | 16 GB (15,7 GB utilizáveis) |
 | Sistema Operacional | Sistema operacional 64 bits / Processador x64 |
-| Linguagem utilizada | ... |
+| Linguagem utilizada | Python |
 | Biblioteca de paralelização | concurrent.futures (ProcessPoolExecutor) |
 | Compilador / Versão | Python 3.14 |
 
